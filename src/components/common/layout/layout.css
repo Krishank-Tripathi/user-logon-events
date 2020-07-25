@@ -1,0 +1,14 @@
+.header {
+  background-color: wheat;
+  padding: 16px 4px;
+}
+
+.header-title {
+  color: grey;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.main {
+  padding: 10px 5px;
+}

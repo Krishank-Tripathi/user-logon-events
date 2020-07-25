@@ -1,0 +1,44 @@
+.user-page {
+  padding: 5%;
+  display: flex;
+
+  @media screen and (max-width: 450px) {
+    display: block;
+  }
+}
+
+.movie-info {
+  color: black;
+  background-color: cream;
+}
+
+.go-back {
+  font-size: 18px;
+  display: block;
+
+  span {
+    color: green;
+  }
+
+  &-top {
+    margin-bottom: 12px;
+  }
+}
+
+
+.activity-block{
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 2px #ccc;
+  width: 200px;
+  padding: 25px;
+}
+
+span{
+	color: grey;
+}
+
+.title{
+	color:green;
+}
